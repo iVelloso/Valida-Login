@@ -1,3 +1,4 @@
+[22/03 20:21] ENZO LARA FAGUNDES
 import { useState } from 'react';
 import { StyleSheet, Text, View, TextInput, TouchableOpacity} from 'react-native';
  
@@ -15,7 +16,7 @@ export default function App() {
     campoSenha = senha;
    
     if (campoEmail === '' || campoSenha === ''){
-      setValida("Os campos estão vazios!");
+      setValida("O campo está vazio");
     }
   }
  
@@ -59,13 +60,13 @@ export default function App() {
 const estilos = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#087C57',
+    backgroundColor: '#024059',
     alignItems: 'center',
     justifyContent: 'center',
     gap: 8
   },
   texto:{
-    color: "#fff",
+    color: "#020614",
     fontSize: 12,
     fontFamily: 'Poppins-Light'
   },
@@ -77,7 +78,7 @@ const estilos = StyleSheet.create({
     width: '80%'
   },
   button:{
-    backgroundColor: "#FFD700",
+    backgroundColor: "#04BF8A",
     paddingHorizontal: 24,
     paddingVertical: 8,
     borderRadius: 8
